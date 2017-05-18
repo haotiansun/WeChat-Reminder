@@ -2,7 +2,6 @@
 
 import requests
 import json
-from datetime import *
 
 url = r'http://wthrcdn.etouch.cn/weather_mini?citykey=101010100'
 jsonStr = requests.get(url).text
